@@ -496,9 +496,9 @@
       display: none;
     }
     #cs-navigation .cs-logo {
-      width: 18.4%;
+      width: 100%;
       max-width: 21.875rem;
-      height: 2rem;
+      height: 100%;
       /* margin-right auto pushes everything away from it to the right */
       margin: 0 auto 0 0;
       padding: 0;
@@ -514,6 +514,7 @@
       object-fit: contain;
     }
     #cs-navigation .cs-contact-group {
+      margin-bottom: 2%;
       display: flex;
       justify-content: center;
       align-items: center;

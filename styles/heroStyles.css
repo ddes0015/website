@@ -106,7 +106,7 @@
       width: 100%;
     }
     #hero-1618 .cs-card-group {
-      margin: 0;
+      margin-bottom: 1%;
       padding: 0;
       width: 100%;
       display: grid;
@@ -115,6 +115,7 @@
       gap: clamp(1rem, 2.3vw, 1.25rem);
     }
     #hero-1618 .cs-item {
+      border-radius: 2%;
       width: 100%;
       text-align: left;
       list-style: none;
@@ -172,7 +173,7 @@
       width: 100%;
       height: 100%;
       background: #111926;
-      opacity: .8;
+      opacity: .4;
       position: absolute;
       display: block;
       top: 0;
@@ -209,22 +210,17 @@
       grid-column: span 4;
     }
     #hero-1618 .cs-background {
-      height: 87%;
-    }
-    #hero-1618 .cs-background:before {
-      background: linear-gradient(90deg, #111926 21.41%, rgba(17, 25, 38, 0.72) 34.98%, rgba(17, 25, 38, 0) 62.53%);
-      opacity: 1;
+      height: 100%;
     }
   }
   /* Large Desktop Parallax Effect - 100px */
   @media only screen and (min-width: 100rem) {
     #hero-1618 .cs-background {
-      background: url("https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/meeting7.jpg");
+      background: url("../images/heroImage.jpg");
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
       /* creates the parallax effect */
-      background-attachment: fixed;
     }
     #hero-1618 .cs-background img {
       display: none;

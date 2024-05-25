@@ -28,13 +28,16 @@
     <!-- styles for gallery -->
     <link rel="stylesheet" href="styles/callToActionStyles.css" />
 
+    <!-- styles for form -->
+    <link rel="stylesheet" href="styles/formStyles.css" />
+
     <header id="cs-navigation">
       <div class="cs-container">
         <!--Nav Logo-->
         <!--Logo is turned white in the css with a filter on dark mode-->
         <a href="" class="cs-logo" aria-label="back to home">
           <img
-            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/day-care.svg"
+            src="images/cFloristLogo.svg"
             alt="logo"
             width="210"
             height="29"
@@ -59,7 +62,7 @@
                 <a href="" class="cs-li-link cs-active"> Home </a>
               </li>
               <li class="cs-li">
-                <a href="" class="cs-li-link"> About </a>
+                <a href="" class="cs-li-link"> Flowers </a>
               </li>
               <!--Copy and paste this cs-dropdown list item and replace any .cs-li with this cs-dropdown group to make a new dropdown and it will work-->
               <li class="cs-li cs-dropdown" tabindex="0">
@@ -77,15 +80,15 @@
                 </span>
                 <ul class="cs-drop-ul">
                   <li class="cs-drop-li">
-                    <a href="" class="cs-li-link cs-drop-link">Registration</a>
+                    <a href="" class="cs-li-link cs-drop-link">Events</a>
                   </li>
                   <li class="cs-drop-li">
-                    <a href="" class="cs-li-link cs-drop-link">Our Classes</a>
+                    <a href="" class="cs-li-link cs-drop-link">Packages</a>
                   </li>
                 </ul>
               </li>
               <li class="cs-li">
-                <a href="" class="cs-li-link"> Blog </a>
+                <a href="" class="cs-li-link"> About Us </a>
               </li>
               <li class="cs-li">
                 <a href="" class="cs-li-link"> Contact </a>
@@ -97,14 +100,14 @@
           <a href="tel:+84 1985 33 999" class="cs-phone">
             <img
               class="cs-phone-icon"
-              src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/phone-1a.svg"
+              src="images/phone-call-icon.svg"
               alt="logo"
               width="24"
               height="24"
               aria-hidden="true"
               decoding="async"
             />
-            +84 1985 33 999
+            +61 000 000 000
           </a>
           <div class="cs-social">
             <a href="" class="cs-social-link">
@@ -199,16 +202,6 @@
                   fill="var(--chevronColor)"
                 />
               </g>
-            </svg>
-            Plan for A secure future
-            <svg
-              class="cs-chevron"
-              width="49"
-              height="15"
-              viewBox="0 0 49 15"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
               <g opacity="0.7">
                 <path
                   d="M48.3781 7.49889L42.5974 15L38.657 15L44.4377 7.49889L38.657 -4.2492e-07L42.5974 -2.52681e-07L48.3781 7.49889Z"
@@ -237,10 +230,8 @@
               </g>
             </svg>
           </span>
-          <h1 class="cs-title">
-            Elevate Your Performance With Our Leading-Edge Consulting Solutions
-          </h1>
-          <a href="" class="cs-button-solid">Request Appointment</a>
+          <h1 class="cs-title">Memories that will last a lifetime...</h1>
+          <a href="" class="cs-button-solid">Shop Now</a>
         </div>
         <ul class="cs-card-group">
           <li class="cs-item">
@@ -248,15 +239,14 @@
               class="cs-icon"
               loading="lazy"
               decoding="async"
-              src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check-circle.svg"
+              src="images/flower-plant-icon.svg"
               alt="icon"
               width="48"
               height="48"
             />
-            <h3 class="cs-h3">100% Success Rate</h3>
+            <h3 class="cs-h3">Unforgettable Floral Designs</h3>
             <p class="cs-item-text">
-              We provide some of the finest quality, most responsive and
-              reliable, and cost effective services and solutions.
+              Let us add a touch of beauty to your special moments with our unique, hand-picked flowers.
             </p>
           </li>
           <li class="cs-item">
@@ -264,15 +254,14 @@
               class="cs-icon"
               loading="lazy"
               decoding="async"
-              src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/speedometer.svg"
+              src="images/smiling-line-icon.svg"
               alt="icon"
               width="48"
               height="48"
             />
-            <h3 class="cs-h3">Expert Legal Services</h3>
+            <h3 class="cs-h3">Exceptional Service</h3>
             <p class="cs-item-text">
-              We provide some of the finest quality, most responsive and
-              reliable, and cost effective services and solutions.
+              From consultation to delivery, experince seamless service tailored to your floral needs.
             </p>
           </li>
           <li class="cs-item">
@@ -280,15 +269,14 @@
               class="cs-icon"
               loading="lazy"
               decoding="async"
-              src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/Like.svg"
+              src="images/leaf-icon.svg"
               alt="icon"
               width="48"
               height="48"
             />
-            <h3 class="cs-h3">Highly Recommend</h3>
+            <h3 class="cs-h3">Eco-Friendly Commitment</h3>
             <p class="cs-item-text">
-              We provide some of the finest quality, most responsive and
-              reliable, and cost effective services and solutions.
+              Choose us for environmentally conscious choices that don't compromise on style or freshness.
             </p>
           </li>
         </ul>
@@ -296,21 +284,11 @@
 
       <!-- Background Image, there's a background image in the CSS for the parallax effect you'll need to change as well if you swap out our images -->
       <picture class="cs-background">
-        <source
-          media="(max-width: 600px)"
-          srcset="
-            https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/meeting7-m.jpeg
-          "
-        />
-        <source
-          media="(min-width: 601px)"
-          srcset="
-            https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/meeting7.jpg
-          "
-        />
+        <source media="(max-width: 600px)" srcset="images/heroImage.jpg" />
+        <source media="(min-width: 601px)" srcset="images/heroImage.jpg" />
         <img
           decoding="async"
-          src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/meeting7.jpg"
+          src="images/heroImage.jpg"
           alt="meeting"
           width="2250"
           height="1500"
@@ -326,34 +304,28 @@
     <section id="services-1354">
       <div class="cs-container">
         <div class="cs-content">
-          <span class="cs-topper">Our Services</span>
-          <h2 class="cs-title">
-            We’re Committed to Deliver Top High Quality Services
+          <span class="cs-topper" style="align-self: center">Flowers</span>
+          <h2 class="cs-title" style="align-self: center">
+            For All Types Of Occasions
           </h2>
         </div>
         <ul class="cs-card-group">
           <li class="cs-item">
             <a href="" class="cs-link">
-              <h3 class="cs-h3">
-                <span class="cs-span">Growing</span> Businesses
-              </h3>
+              <h3 class="cs-h3"><span class="cs-span">Mother's</span> Day</h3>
             </a>
             <picture class="cs-background">
               <source
                 media="(max-width: 600px)"
-                srcset="
-                  https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/meeting1.jpg
-                "
+                srcset="images/mothersDay.jpg"
               />
               <source
                 media="(min-width: 601px)"
-                srcset="
-                  https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/meeting1.jpg
-                "
+                srcset="images/mothersDay.jpg"
               />
               <img
                 decoding="async"
-                src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/meeting1.jpg"
+                src="images/mothersDay.jpg"
                 alt="construction"
                 width="305"
                 height="305"
@@ -364,25 +336,21 @@
           <li class="cs-item">
             <a href="" class="cs-link">
               <h3 class="cs-h3">
-                <span class="cs-span">Building</span> Relationships
+                <span class="cs-span">Weddings</span>
               </h3>
             </a>
             <picture class="cs-background">
               <source
                 media="(max-width: 600px)"
-                srcset="
-                  https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/meeting2.jpg
-                "
+                srcset="images/weddingFlowers.jpg"
               />
               <source
                 media="(min-width: 601px)"
-                srcset="
-                  https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/meeting2.jpg
-                "
+                srcset="images/weddingFlowers.jpg"
               />
               <img
                 decoding="async"
-                src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/meeting2.jpg"
+                src="images/weddingFlowers.jpg"
                 alt="construction"
                 width="305"
                 height="305"
@@ -393,25 +361,25 @@
           <li class="cs-item">
             <a href="" class="cs-link">
               <h3 class="cs-h3">
-                <span class="cs-span">Operational</span> Excellence
+                <span class="cs-span">Birthdays</span>
               </h3>
             </a>
             <picture class="cs-background">
               <source
                 media="(max-width: 600px)"
                 srcset="
-                  https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/meeting3.jpg
+                  images/birthdayFlowers.jpg
                 "
               />
               <source
                 media="(min-width: 601px)"
                 srcset="
-                  https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/meeting3.jpg
+                  images/birthdayFlowers.jpg
                 "
               />
               <img
                 decoding="async"
-                src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/meeting3.jpg"
+                src="images/birthdayFlowers.jpg"
                 alt="construction"
                 width="305"
                 height="305"
@@ -421,26 +389,24 @@
           </li>
           <li class="cs-item">
             <a href="" class="cs-link">
-              <h3 class="cs-h3">
-                <span class="cs-span">Lifetime</span> Maintenance
-              </h3>
+              <h3 class="cs-h3"><span class="cs-span">Baby</span> Showers</h3>
             </a>
             <picture class="cs-background">
               <source
                 media="(max-width: 600px)"
                 srcset="
-                  https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/meeting4.jpg
+                  images/babyFlowers.jpg
                 "
               />
               <source
                 media="(min-width: 601px)"
                 srcset="
-                  https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/meeting4.jpg
+                 images/babyFlowers.jpg
                 "
               />
               <img
                 decoding="async"
-                src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/meeting4.jpg"
+                src="images/babyFlowers.jpg"
                 alt="construction"
                 width="305"
                 height="305"
@@ -459,8 +425,8 @@
     <section id="gallery-1152">
       <div class="cs-container">
         <div class="cs-content">
-          <span class="cs-topper">Our Portfolio</span>
-          <h2 class="cs-title">Our Photo Gallery</h2>
+          <span class="cs-topper">Home Grown</span>
+          <h2 class="cs-title">Our Gallery</h2>
         </div>
         <div class="cs-gallery">
           <!--Picture 1-->
@@ -468,19 +434,19 @@
             <source
               media="(max-width: 600px)"
               srcset="
-                https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/char1.jpg
+                images/gallery1.jpg
               "
             />
             <source
               media="(min-width: 601px)"
               srcset="
-                https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/char1.jpg
+              images/gallery1.jpg
               "
             />
             <img
               loading="lazy"
               decoding="async"
-              src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/char1.jpg"
+              src="images/gallery1.jpg"
               alt="gallery"
               width="272"
               height="320"
@@ -491,19 +457,19 @@
             <source
               media="(max-width: 600px)"
               srcset="
-                https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/char2.jpg
+              images/gallery4.jpg
               "
             />
             <source
               media="(min-width: 601px)"
               srcset="
-                https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/char2.jpg
+              images/gallery4.jpg
               "
             />
             <img
               loading="lazy"
               decoding="async"
-              src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/char2.jpg"
+              src="images/gallery4.jpg"
               alt="gallery"
               width="272"
               height="320"
@@ -514,19 +480,19 @@
             <source
               media="(max-width: 600px)"
               srcset="
-                https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/char3.jpg
+              images/gallery2.jpg
               "
             />
             <source
               media="(min-width: 601px)"
               srcset="
-                https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/char3.jpg
+              images/gallery2.jpg
               "
             />
             <img
               loading="lazy"
               decoding="async"
-              src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/char3.jpg"
+              src="images/gallery2.jpg"
               alt="gallery"
               width="272"
               height="320"
@@ -537,19 +503,19 @@
             <source
               media="(max-width: 600px)"
               srcset="
-                https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/char4.jpg
+              images/gallery5.jpg
               "
             />
             <source
               media="(min-width: 601px)"
               srcset="
-                https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/char4.jpg
+              images/gallery5.jpg
               "
             />
             <img
               loading="lazy"
               decoding="async"
-              src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/char4.jpg"
+              src="images/gallery5.jpg"
               alt="gallery"
               width="272"
               height="320"
@@ -560,19 +526,19 @@
             <source
               media="(max-width: 600px)"
               srcset="
-                https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/char5.jpg
+              images/gallery3.jpg
               "
             />
             <source
               media="(min-width: 601px)"
               srcset="
-                https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/char5.jpg
+              images/gallery3.jpg
               "
             />
             <img
               loading="lazy"
               decoding="async"
-              src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/char5.jpg"
+              src="images/gallery3.jpg"
               alt="gallery"
               width="272"
               height="320"
@@ -590,12 +556,9 @@
       <div class="cs-container">
         <div class="cs-content">
           <span class="cs-topper">Our Reviews</span>
-          <h2 class="cs-title">What Our Clients Say</h2>
+          <h2 class="cs-title">What Our Customers Say</h2>
           <p class="cs-text">
-            Vitae ultricies leo integer malesuada nunc vel. Molestie ac feugiat
-            sed lectus vestibulum mattis ullamcorper velit. Viverra aliquet eget
-            sit amet tellus cras adipiscing. Molestie ac feugiat sed lectus
-            vestibulum mattis ullamcorper velit
+            Don't just take our word for it, hear what others have to say.
           </p>
         </div>
         <ul class="cs-card-group">
@@ -611,15 +574,15 @@
               height="24"
             />
             <p class="cs-item-text">
-              Curabitur vitae nunc sed velit dignissim sodales ut. Maecenas
-              ultricies mi eget mauris pharetra et. Et ligula ullamcorper
-              malesuada proin pellentesque diam volutpat commodo.
+              My sister was so stressed about her wedding but Cranbourne Florists made the whole day so much easier. Great job guys! 
+
+              
             </p>
             <div class="cs-flex-group">
               <picture class="cs-picture">
                 <img
                   class="cs-profile"
-                  src="https://csimg.nyc3.digitaloceanspaces.com/Reviews/profile2.jpg"
+                  src="images/mary.jpeg"
                   decoding="async"
                   alt="profile"
                   width="50"
@@ -628,8 +591,7 @@
                 />
               </picture>
               <span class="cs-name">
-                Vera Robinson
-                <span class="cs-job">Psychologist</span>
+                Mary Mckinnon
               </span>
             </div>
           </li>
@@ -645,15 +607,13 @@
               height="24"
             />
             <p class="cs-item-text">
-              Curabitur vitae nunc sed velit dignissim sodales ut. Maecenas
-              ultricies mi eget mauris pharetra et. Et ligula ullamcorper
-              malesuada proin pellentesque diam volutpat commodo
+              Their store is so beautiful and the staff are so passionate about their jobs. Definitley recommend coming here for all your floral needs.
             </p>
             <div class="cs-flex-group">
               <picture class="cs-picture">
                 <img
                   class="cs-profile"
-                  src="https://csimg.nyc3.digitaloceanspaces.com/Reviews/profile2.jpg"
+                  src="images/edward.jpeg"
                   decoding="async"
                   alt="profile"
                   width="50"
@@ -662,8 +622,7 @@
                 />
               </picture>
               <span class="cs-name">
-                Benjamin Norris
-                <span class="cs-job">Business analyst</span>
+                Edward Davidson
               </span>
             </div>
           </li>
@@ -679,23 +638,32 @@
       <div class="cs-container">
         <div class="cs-content">
           <h2 class="cs-title">
-            Have Doubts? Get Your Queries Solved by Our Experts
+            Overwhelmed? Send us a query
           </h2>
-          <a href="" class="cs-button-solid">Get In Touch</a>
+          <button class="cs-button-solid" style="margin-right: 0.5%" onclick="openForm()">Get In Touch</button>
         </div>
       </div>
       <!--SVG Waves Background-->
-      <img
-        class="cs-background"
-        src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images%2FGraphics%2Fwaves-3.svg"
-        alt="wave graphic"
-        width="1920"
-        height="318"
-        loading="lazy"
-        decoding="async"
-        aria-hidden="true"
-      />
     </section>
+
+    <!-- ============================================ -->
+    <!--                     FORM                      -->
+    <!-- ============================================ -->
+    <!-- The form -->
+<div class="form-popup" id="myForm">
+  <form onsubmit="submitQuery()" class="form-container">
+    <h1>Contact Us</h1>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+
+    <label  for="psw"><b>Your Question</b></label>
+    <textarea type="textarea" placeholder="Type Here" name="email" required></textarea>
+
+    <button type="submit" class="btn">Send</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
 
     <!-- ============================================ -->
     <!--                   Footer                     -->
@@ -705,21 +673,23 @@
       <div class="cs-container">
         <!-- Logo Group -->
         <div class="cs-logo-group">
+          <p class="cs-text">
+            <b>Find us </b>off the corner of Sladen St and South Gippsland Hwy
+          </p>
           <a aria-label="go back to home" class="cs-logo" href="">
+            
             <img
               class="cs-logo-img"
               aria-hidden="true"
               loading="lazy"
               decoding="async"
-              src="https://csimg.nyc3.digitaloceanspaces.com/Footer/logo.svg"
+              src="images/map.svg"
               alt="logo"
               width="240"
               height="32"
             />
           </a>
-          <p class="cs-text">
-            We planning, designing, financing, and executing projects.
-          </p>
+          
           <a href="mailto:info@mail.com" class="cs-link">
             <img
               class="cs-link-icon"
@@ -731,7 +701,7 @@
               width="24"
               height="24"
             />
-            hi@stitchconstruction.com
+            cranbourneflorist@gmail.com
           </a>
         </div>
         <!-- Links -->
@@ -740,16 +710,13 @@
             <span class="cs-header">Services</span>
           </li>
           <li class="cs-nav-li">
-            <a class="cs-nav-link" href="">Email Marketing</a>
+            <a class="cs-nav-link" href="">Delivery</a>
           </li>
           <li class="cs-nav-li">
-            <a class="cs-nav-link" href="">Brandings</a>
+            <a class="cs-nav-link" href="">Events</a>
           </li>
           <li class="cs-nav-li">
-            <a class="cs-nav-link" href="">Campaign</a>
-          </li>
-          <li class="cs-nav-li">
-            <a class="cs-nav-link" href="">Offline</a>
+            <a class="cs-nav-link" href="">Hand Picked Bouquets</a>
           </li>
         </ul>
         <ul class="cs-nav">
@@ -760,13 +727,10 @@
             <a class="cs-nav-link" href="">Our Story</a>
           </li>
           <li class="cs-nav-li">
-            <a class="cs-nav-link" href="">Benefits</a>
+            <a class="cs-nav-link" href="">Florists</a>
           </li>
           <li class="cs-nav-li">
             <a class="cs-nav-link" href="">Team</a>
-          </li>
-          <li class="cs-nav-li">
-            <a class="cs-nav-link" href="">Carer</a>
           </li>
         </ul>
         <ul class="cs-nav">
@@ -778,9 +742,6 @@
           </li>
           <li class="cs-nav-li">
             <a class="cs-nav-link" href="">Instagram</a>
-          </li>
-          <li class="cs-nav-li">
-            <a class="cs-nav-link" href="">LinkedIn</a>
           </li>
         </ul>
         <ul class="cs-nav">
@@ -810,5 +771,8 @@
 
     <!-- This is the javascript for the header -->
     <script src="/scripts/headerScript.js"></script>
+
+    <!-- This is the javascript for the form -->
+    <script src="/scripts/formScript.js"></script>
   </body>
 </html>
